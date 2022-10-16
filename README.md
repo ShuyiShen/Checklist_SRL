@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Checklist_SRL
-Open the 'black box' of neural network model, explore the performance of model on linguistic phenomenon. Test NLP model by using checklist inspired by behavioral testing in software testing.
-=======
 # Checklist on AllenNLP semantic role labelling model (SRL)
 Individual Assignment for the Course NLP Technology III at VU University Amsterdam
 
