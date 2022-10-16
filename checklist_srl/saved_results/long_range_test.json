@@ -1,0 +1,11 @@
+{"Test": "LongRangeTest", "model": "structured-prediction-srl"}
+{"sentence": "The woman, though in a depression,  actually offered a good explanation.", "target": "ARG0 and ARG1", "expected": ["The woman", "a good explanation"], "prediction": ["The woman", "a good explanation"]}
+{"sentence": "The reader, though in a depression,  actually offered a good explanation.", "target": "ARG0 and ARG1", "expected": ["The reader", "a good explanation"], "prediction": ["The reader", "a good explanation"]}
+{"sentence": "The author, though in a depression,  actually offered a good insight.", "target": "ARG0 and ARG1", "expected": ["The author", "a good insight"], "prediction": ["The author", "a good insight"]}
+{"sentence": "The man, though in a depression,  actually offered a good story.", "target": "ARG0 and ARG1", "expected": ["The man", "a good story"], "prediction": ["The man", "a good story"]}
+{"sentence": "The professor, though in a depression,  actually offered a good solution.", "target": "ARG0 and ARG1", "expected": ["The professor", "a good solution"], "prediction": ["The professor", "a good solution"]}
+{"sentence": "The author, though in a depression,  actually offered a good read.", "target": "ARG0 and ARG1", "expected": ["The author", "a good read"], "prediction": ["The author", "a good read"]}
+{"sentence": "The therapist, though in a depression,  actually offered a good assessment.", "target": "ARG0 and ARG1", "expected": ["The therapist", "a good assessment"], "prediction": ["The therapist", "a good assessment"]}
+{"sentence": "The author, though in a depression,  actually offered a good speech.", "target": "ARG0 and ARG1", "expected": ["The author", "a good speech"], "prediction": ["The author", "a good speech"]}
+{"sentence": "The writer, though in a depression,  actually offered a good story.", "target": "ARG0 and ARG1", "expected": ["The writer", "a good story"], "prediction": ["The writer", "a good story"]}
+{"sentence": "The book, though in a depression,  actually offered a good read.", "target": "ARG0 and ARG1", "expected": ["The book", "a good read"], "prediction": ["The book", "a good read"]}

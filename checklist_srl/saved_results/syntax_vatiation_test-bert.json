@@ -1,0 +1,6 @@
+{"Test": "SyntaxVariationTest", "model": "structured-prediction-srl-bert"}
+{"sentence": ["the cat chased the dog.", "it was the cat that chased the dog."], "target": "INV", "expected": ["the cat", "the dog"], "prediction": ["the cat", "the dog"]}
+{"sentence": ["What the cat chased was the dog.", "the cat chased the dog."], "target": "INV", "expected": ["the cat", "What"], "prediction": ["the cat", "the dog"]}
+{"sentence": ["It was the cat that chased the dog.", "What the cat chased was the dog."], "target": "INV", "expected": ["the cat", "the dog"], "prediction": ["the cat", "What"]}
+{"sentence": ["Pia gives the lecture.", "the lecture is given by Pia."], "target": "INV", "expected": ["Pia", "the lecture"], "prediction": ["by Pia", "the lecture"]}
+{"sentence": ["Piek likes robots.", "Does Piek like robots?"], "target": "INV", "expected": ["Piek", "robots"], "prediction": ["", ""]}

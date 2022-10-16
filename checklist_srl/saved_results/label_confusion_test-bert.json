@@ -1,0 +1,11 @@
+{"Test": "LabelConfusionTest", "model": "structured-prediction-srl-bert"}
+{"sentence": "The worker move the containers into that building with a crane.", "target": "with a crane", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the trailer into that building with a crane.", "target": "with a crane", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the crates into that building with a cart.", "target": "with a cart", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the boxes into that building with a cart.", "target": "with a cart", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the equipment into that building with a truck.", "target": "with a truck", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the rubble into that building with a shovel.", "target": "with a shovel", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the boxes into that building with a robot.", "target": "with a robot", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the crane into that building with a crane.", "target": "with a crane", "expected": "ARG2", "prediction": "ARG1"}
+{"sentence": "The worker move the box into that building with a shovel.", "target": "with a shovel", "expected": "ARG2", "prediction": "ARGM-MNR"}
+{"sentence": "The worker move the boxes into that building with a crane.", "target": "with a crane", "expected": "ARG2", "prediction": "ARGM-MNR"}

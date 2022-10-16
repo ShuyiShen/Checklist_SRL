@@ -1,0 +1,11 @@
+{"Test": "LexicalTest", "model": "structured-prediction-srl"}
+{"sentence": "Someone killed Phuong Nguyen last night.", "target": "ARG1", "expected": "Phuong Nguyen", "prediction": ["Phuong", "Nguyen"]}
+{"sentence": "Someone killed Pierre Đặng last night.", "target": "ARG1", "expected": "Pierre Đặng", "prediction": ["Pierre"]}
+{"sentence": "Someone killed Can Toàn last night.", "target": "ARG1", "expected": "Can Toàn", "prediction": ["Can", "Toàn"]}
+{"sentence": "Someone killed Thomas Bùi last night.", "target": "ARG1", "expected": "Thomas Bùi", "prediction": ["Thomas", "Bùi"]}
+{"sentence": "Someone killed Việt Diem last night.", "target": "ARG1", "expected": "Việt Diem", "prediction": ["Việt", "Diem"]}
+{"sentence": "Someone killed Charlie Walters last night.", "target": "ARG1", "expected": "Charlie Walters", "prediction": ["Charlie", "Walters"]}
+{"sentence": "Someone killed Carlton Tuân last night.", "target": "ARG1", "expected": "Carlton Tuân", "prediction": ["Carlton", "Tuân"]}
+{"sentence": "Someone killed Henri Diem last night.", "target": "ARG1", "expected": "Henri Diem", "prediction": ["Henri", "Diem"]}
+{"sentence": "Someone killed Vân Nguyen last night.", "target": "ARG1", "expected": "Vân Nguyen", "prediction": ["Vân", "Nguyen"]}
+{"sentence": "Someone killed Vân Walters last night.", "target": "ARG1", "expected": "Vân Walters", "prediction": ["Vân", "Walters"]}

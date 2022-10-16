@@ -1,0 +1,6 @@
+{"Test": "ArgumentAlterTest", "model": "structured-prediction-srl"}
+{"sentence": ["Jack sprayed paint on the wall.", "Jack sprayed the wall with paint."], "target": "INV", "expected": ["Jack", "paint"], "prediction": ["Jack", "the wall"]}
+{"sentence": ["The farmer loaded hay onto the wagon.", "The farmer loaded the wagon with hay."], "target": "INV", "expected": ["The farmer", "hay"], "prediction": ["The farmer", "the wagon"]}
+{"sentence": ["The cook opened the jar with the gadget.", "the gadget opened the jar."], "target": "INV", "expected": ["The cook", "the jar"], "prediction": ["the gadget", "the jar"]}
+{"sentence": ["Martha carved a toy for the baby.", " Martha carved the baby a toy."], "target": "INV", "expected": ["Martha", "a toy for the baby"], "prediction": ["Martha", "the baby a toy"]}
+{"sentence": ["The car collided with the bicycle.", "The car and the bicycle collided."], "target": "INV", "expected": ["The car", "with the bicycle"], "prediction": ["The car and the bicycle", ""]}

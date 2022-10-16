@@ -1,0 +1,6 @@
+{"Test": "RobustnessTest", "model": "structured-prediction-srl"}
+{"sentence": ["The boy broke the vase.", "The boy broke the vas.e"], "target": "INV", "expected": ["B-ARG0", "I-ARG0", "B-V", "B-ARG1", "I-ARG1", "O"], "prediction": ["B-ARG0", "I-ARG0", "B-V", "B-ARG1", "I-ARG1"]}
+{"sentence": ["John sold Tom the car.", "John sold To mthe car."], "target": "INV", "expected": ["B-ARG0", "B-V", "B-ARG1", "I-ARG1", "I-ARG1", "O"], "prediction": ["B-ARG1", "B-V", "O", "O", "O", "O"]}
+{"sentence": ["Jack sprayed paint on the wall.", "Jcak sprayed paint on the wall."], "target": "INV", "expected": ["B-ARG0", "B-V", "B-ARG1", "B-ARGM-LOC", "I-ARGM-LOC", "I-ARGM-LOC", "O"], "prediction": ["B-ARG0", "B-V", "B-ARG1", "B-ARGM-LOC", "I-ARGM-LOC", "I-ARGM-LOC", "O"]}
+{"sentence": ["The mushrooms were sliced by the cook.", "The mushrooms were sliced by the cook."], "target": "INV", "expected": ["O", "O", "B-V", "O", "O", "O", "O", "O"], "prediction": ["O", "O", "B-V", "O", "O", "O", "O", "O"]}
+{"sentence": ["The river froze solid.", "The river rfoze solid."], "target": "INV", "expected": ["B-ARG1", "I-ARG1", "B-V", "B-ARGM-MNR", "O"], "prediction": []}

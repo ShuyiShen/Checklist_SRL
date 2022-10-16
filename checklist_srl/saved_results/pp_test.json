@@ -1,0 +1,11 @@
+{"Test": "PPAttachmentTest", "model": "structured-prediction-srl"}
+{"sentence": "The boy saw the eclipse with the telescope.", "target": "with the telescope", "expected": "ARG2/Instrument/ARGM", "prediction": "ARG1"}
+{"sentence": "The child saw the world with his eyes.", "target": "with his eyes", "expected": "ARG2/Instrument/ARGM", "prediction": "ARGM"}
+{"sentence": "The child saw the eclipse with the telescope.", "target": "with the telescope", "expected": "ARG2/Instrument/ARGM", "prediction": "ARG1"}
+{"sentence": "The child saw the moon with his eyes.", "target": "with his eyes", "expected": "ARG2/Instrument/ARGM", "prediction": "ARGM"}
+{"sentence": "The boy saw the clouds with his eyes.", "target": "with his eyes", "expected": "ARG2/Instrument/ARGM", "prediction": "ARG1"}
+{"sentence": "The spy saw the cop with the map .", "target": "with the map", "expected": "ARG1", "prediction": "ARG1"}
+{"sentence": "The spy saw the cop with the revolver .", "target": "with the revolver", "expected": "ARG1", "prediction": "ARG1"}
+{"sentence": "The spy saw the cop with the sunglasses .", "target": "with the sunglasses", "expected": "ARG1", "prediction": "ARG1"}
+{"sentence": "The spy saw the cop with the badge .", "target": "with the badge", "expected": "ARG1", "prediction": "ARG1"}
+{"sentence": "The spy saw the cop with the bags .", "target": "with the bags", "expected": "ARG1", "prediction": "ARG1"}
