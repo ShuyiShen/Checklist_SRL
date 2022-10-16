@@ -53,4 +53,4 @@ In this section, we chose two neural systems of different architectures to evalu
    <br />  
 - STEP 2. Go to **Checklist_SRL/checklist_srl** folder, choose one of the
     linguistic phenomenon <br /> that you want to experiment and run **main.py**
->>>>>>> 4fa2b94 (fitst commit)
+
